@@ -1,0 +1,239 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "西湖龙井（浙江杭州西湖产区）",
+                "tea_type": "绿茶",
+                "description": "核心区域在“狮（狮峰）、龙（龙井）、云（云栖）、虎（虎跑）、梅（梅家坞）”"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [120.0833, 30.2417] // 大致中心经纬度，西湖产区范围 东经119°56′~120°10′，北纬30°02′~30°23′
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "洞庭碧螺春（江苏苏州洞庭山产区）",
+                "tea_type": "绿茶",
+                "description": "分为东山镇（洞庭东山）和金庭镇（洞庭西山）"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [120.6000, 31.1833] // 大致中心经纬度，苏州地处东经119°55′～121°20′，北纬30°47′～32°02′之间
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "黄山毛峰、太平猴魁（安徽黄山产区）",
+                "tea_type": "绿茶",
+                "description": "黄山地区海拔高，森林覆盖率高"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [118.1504, 30.1502] // 黄山风景区中心经纬度，黄山风景区地跨东经118°01’—118°17’，北纬30°01’—30°18’
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "信阳毛尖（河南信阳产区）",
+                "tea_type": "绿茶",
+                "description": "核心产区集中在“五云、两潭、一寨”"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.0625, 32.1300] // 大致中心经纬度，信阳市地处东经113°45′—115°55′、北纬30°23′—32°27′之间
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "福鼎白茶（福建福鼎产区）",
+                "tea_type": "白茶",
+                "description": "白茶的重要发源地和主产区"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [120.2700, 27.3600] // 大致经纬度，福鼎具体经纬度范围可进一步精准调研
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "政和白茶（福建政和产区）",
+                "tea_type": "白茶",
+                "description": "所产白茶亦具特色"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [118.9400, 27.3300] // 大致经纬度，政和具体经纬度范围可进一步精准调研
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "君山银针（湖南岳阳君山岛产区）",
+                "tea_type": "黄茶",
+                "description": "君山四面环水，土壤肥沃"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.0700, 29.3000] // 大致经纬度，君山岛具体经纬度范围可进一步精准调研
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "蒙顶黄芽（四川雅安蒙顶山产区）",
+                "tea_type": "黄茶",
+                "description": "蒙顶山终年云雾缭绕"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [103.0400, 29.9500] // 大致经纬度，蒙顶山具体经纬度范围可进一步精准调研
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "武夷岩茶（福建武夷山产区）",
+                "tea_type": "青茶（乌龙茶）",
+                "description": "“三坑两涧”为核心正岩产区"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [117.9300, 27.7800] // 大致经纬度，武夷山具体经纬度范围可进一步精准调研
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "铁观音（福建安溪产区）",
+                "tea_type": "青茶（乌龙茶）",
+                "description": "铁观音的发源地"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [118.1800, 25.0500] // 大致经纬度，安溪具体经纬度范围可进一步精准调研
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "凤凰单丛（广东潮州凤凰山产区）",
+                "tea_type": "青茶（乌龙茶）",
+                "description": "茶树品种丰富，香型多样"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [116.6500, 23.9500] // 大致经纬度，凤凰山具体经纬度范围可进一步精准调研
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "冻顶乌龙（中国台湾南投县冻顶山产区）",
+                "tea_type": "青茶（乌龙茶）",
+                "description": "冻顶山海拔较高，气候凉爽"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [120.8200, 23.7700] // 大致经纬度，冻顶山具体经纬度范围可进一步精准调研
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "正山小种（福建武夷山桐木关产区）",
+                "tea_type": "红茶",
+                "description": "正山小种的发源地"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [117.8700, 27.8500] // 大致经纬度，桐木关具体经纬度范围可进一步精准调研
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "祁门红茶（安徽祁门产区）",
+                "tea_type": "红茶",
+                "description": "具有独特的“祁门香”"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [117.7200, 29.8500] // 大致经纬度，祁门具体经纬度范围可进一步精准调研
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "滇红（云南滇西、滇南产区）",
+                "tea_type": "红茶",
+                "description": "茶叶肥壮，金毫显露"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [99.9000, 24.9000], // 滇西大致经纬度
+                    [101.0000, 22.8000] // 滇南大致经纬度
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "安化黑茶（湖南安化产区）",
+                "tea_type": "黑茶",
+                "description": "安化多山地，土壤呈酸性"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [111.2000, 28.3000] // 大致经纬度，安化具体经纬度范围可进一步精准调研
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "青砖茶（湖北赤壁产区）",
+                "tea_type": "黑茶",
+                "description": "青砖茶的重要产区"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.8700, 29.7000] // 大致经纬度，赤壁具体经纬度范围可进一步精准调研
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "雅安藏茶（四川雅安产区）",
+                "tea_type": "黑茶",
+                "description": "四川边茶的主产区"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [102.9700, 30.0000] // 大致经纬度，雅安具体经纬度范围可进一步精准调研
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "普洱茶（云南西双版纳、普洱产区）",
+                "tea_type": "黑茶",
+                "description": "有生茶和熟茶之分"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [100.9000, 21.9000], // 西双版纳大致经纬度
+                    [101.0000, 22.7000] // 普洱大致经纬度
+                ]
+            }
+        }
+    ]
+}
