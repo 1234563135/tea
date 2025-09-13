@@ -1,138 +1,26 @@
 [
   {
-    "id": "tea-green-westlake",
-    "time": "2024-01-01",
-    "longitude": 120.0833,
-    "latitude": 30.2417,
+    "id": "item-1",
+    "time": "2020-02-10",
+    "longitude": 80,
+    "latitude": 40,
     "geometry_object": {
       "type": "Point",
-      "coordinates": [120.0833, 30.2417]
+      "coordinates": [100.0, 31.5]
     },
-    "geometry_string": '{"type":"Point","coordinates":[120.0833, 30.2417]}',
-    "wkt": "POINT (120.0833 30.2417)",
-    "tea_type": "绿茶",
-    "name": "西湖龙井",
-    "producing_area": "浙江杭州西湖产区",
-    "description": "核心区域在“狮（狮峰）、龙（龙井）、云（云栖）、虎（虎跑）、梅（梅家坞）”",
-    "feature": "扁平挺直、豆香浓郁"
+    "geometry_string": "{\"type\":\"Point\",\"coordinates\":[100.0, 31.5]}",
+    "wkt": "POLYGON ((30 10, 40 40, 20 40, 10 20, 30 10))"
   },
   {
-    "id": "tea-green-biluochun",
-    "time": "2024-01-02",
-    "longitude": 120.6000,
-    "latitude": 31.1833,
+    "id": "item-2",
+    "time": "2020-02-15",
+    "longitude": 70,
+    "latitude": 30,
     "geometry_object": {
       "type": "Point",
-      "coordinates": [120.6000, 31.1833]
+      "coordinates": [102.0, 32.5]
     },
-    "geometry_string": '{"type":"Point","coordinates":[120.6000, 31.1833]}',
-    "wkt": "POINT (120.6000 31.1833)",
-    "tea_type": "绿茶",
-    "name": "洞庭碧螺春",
-    "producing_area": "江苏苏州洞庭山产区",
-    "description": "分为东山镇（洞庭东山）和金庭镇（洞庭西山）",
-    "feature": "卷曲如螺、花果香浓郁"
-  },
-  {
-    "id": "tea-green-huangshan",
-    "time": "2024-01-03",
-    "longitude": 118.1504,
-    "latitude": 30.1502,
-    "geometry_object": {
-      "type": "Point",
-      "coordinates": [118.1504, 30.1502]
-    },
-    "geometry_string": '{"type":"Point","coordinates":[118.1504, 30.1502]}',
-    "wkt": "POINT (118.1504 30.1502)",
-    "tea_type": "绿茶",
-    "name": "黄山毛峰、太平猴魁",
-    "producing_area": "安徽黄山产区",
-    "description": "黄山地区海拔高，森林覆盖率高，云雾弥漫",
-    "feature": "黄山毛峰状似雀舌，太平猴魁扁平挺直"
-  },
-  {
-    "id": "tea-white-fuding",
-    "time": "2024-01-04",
-    "longitude": 120.2700,
-    "latitude": 27.3600,
-    "geometry_object": {
-      "type": "Point",
-      "coordinates": [120.2700, 27.3600]
-    },
-    "geometry_string": '{"type":"Point","coordinates":[120.2700, 27.3600]}',
-    "wkt": "POINT (120.2700 27.3600)",
-    "tea_type": "白茶",
-    "name": "福鼎白茶",
-    "producing_area": "福建福鼎产区",
-    "description": "沿海亚热带季风气候，红壤黄壤适宜茶树生长",
-    "feature": "芽头肥壮、满披白毫、毫香显著"
-  },
-  {
-    "id": "tea-yellow-junshan",
-    "time": "2024-01-05",
-    "longitude": 113.0700,
-    "latitude": 29.3000,
-    "geometry_object": {
-      "type": "Point",
-      "coordinates": [113.0700, 29.3000]
-    },
-    "geometry_string": '{"type":"Point","coordinates":[113.0700, 29.3000]}',
-    "wkt": "POINT (113.0700 29.3000)",
-    "tea_type": "黄茶",
-    "name": "君山银针",
-    "producing_area": "湖南岳阳君山岛产区",
-    "description": "君山四面环水，空气湿度大，云雾多，砂质壤土肥沃",
-    "feature": "芽头肥壮挺直、满披茸毛、汤色橙黄"
-  },
-  {
-    "id": "tea-oolong-wuyi",
-    "time": "2024-01-06",
-    "longitude": 117.9300,
-    "latitude": 27.7800,
-    "geometry_object": {
-      "type": "Point",
-      "coordinates": [117.9300, 27.7800]
-    },
-    "geometry_string": '{"type":"Point","coordinates":[117.9300, 27.7800]}',
-    "wkt": "POINT (117.9300 27.7800)",
-    "tea_type": "青茶（乌龙茶）",
-    "name": "武夷岩茶",
-    "producing_area": "福建武夷山产区",
-    "description": "丹霞地貌，“三坑两涧”为核心正岩产区",
-    "feature": "岩骨花香，大红袍馥郁、肉桂辛锐"
-  },
-  {
-    "id": "tea-black-qimen",
-    "time": "2024-01-07",
-    "longitude": 117.7200,
-    "latitude": 29.8500,
-    "geometry_object": {
-      "type": "Point",
-      "coordinates": [117.7200, 29.8500]
-    },
-    "geometry_string": '{"type":"Point","coordinates":[117.7200, 29.8500]}',
-    "wkt": "POINT (117.7200 29.8500)",
-    "tea_type": "红茶",
-    "name": "祁门红茶",
-    "producing_area": "安徽祁门产区",
-    "description": "气候温和，雨水充足，红黄土壤富含有机质",
-    "feature": "祁门香显著、条索紧细、滋味醇厚"
-  },
-  {
-    "id": "tea-dark-puer",
-    "time": "2024-01-08",
-    "longitude": 100.9000,
-    "latitude": 21.9000,
-    "geometry_object": {
-      "type": "Point",
-      "coordinates": [100.9000, 21.9000]
-    },
-    "geometry_string": '{"type":"Point","coordinates":[100.9000, 21.9000]}',
-    "wkt": "POINT (100.9000 21.9000)",
-    "tea_type": "黑茶",
-    "name": "普洱茶",
-    "producing_area": "云南西双版纳产区",
-    "description": "热带亚热带气候，阳光充足，雨量充沛",
-    "feature": "生茶黄绿明亮，熟茶红浓陈香"
+    "geometry_string": "{\"type\":\"Point\",\"coordinates\":[102.0, 32.5]}",
+    "wkt": "POLYGON ((35 10, 45 45, 15 40, 10 20, 35 10),(20 30, 35 35, 30 20, 20 30))"
   }
 ]
